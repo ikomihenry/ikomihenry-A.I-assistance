@@ -1,0 +1,618 @@
+
+
+<html>
+<head>
+<title>HENRY</title>
+</head>
+
+<style>
+
+#pop{
+background-color: black;
+}
+
+#pip{
+text-align: center;
+}
+</style>
+
+<body id = "pop">
+
+<br />
+<br />
+
+<br />
+<br />
+<br />
+
+
+
+<br />
+<br />
+<br />
+<img onclick = "p();" style = "width: 380; height: 250; position: absolute; left:-5 ; top:6;"src = "voice-family.gif"/>
+<br/>
+<br/>
+<br/>
+<img onclick = "op();"  style = "width: 1000; height: 600; position: absolute; left: 300 ; top: 20;" src = "fd7b833950ae49dd6e12fb681bf800d6.gif"/>
+<br/>
+<br />
+<img  onclick = "poo();" src = "schedule.gif" style =" width: 200; height: 200; position: absolute; top: 400; left: 100"/>
+<img  onclick = "pooo();" src = "ChubbyClutteredDromedary-max-1mb.gif" style =" width: 250; height: 200; position: absolute; top: 20; left: 1150"/>
+<img  onclick = "opoo();" src = "fb36b6ee0ba43a905d7d6db76c21a9bf.gif" style =" width: 300; height: 200; position: absolute; top: 550; left: 1150"/>
+<br/>
+<br/>
+<p style = "text-align: right; color: green;  position: absolute; top: 670 "> Instructions:  ASK the robot any question that comes to your mind and make sure everything is well spell-out. try saying open calculator<br/>  write to me or switch to voice recognition,<br/> by clicking in the above hollagram at your left, <br/> or set schedule of the day by clicking the hollagram below  .    <br/> and to your right above is specific, specail and fun communication with me and below that, there are others, which includes others options you may love</p>
+
+<script>
+
+alert ("click any of the images that you see, for more options to be opened. Dont click anything until you hear me speak.  try clicking me at the center (blue orb),, only when am done talking")
+function pooo(){
+ msg = new SpeechSynthesisUtterance();
+msg.text  = " switching to, personal , friendly , enjoyment and fun interactions and cumminication with me"
+window.speechSynthesis.speak(msg)
+
+document.location = "love.html"
+
+}
+
+
+function opoo(){
+ msg = new SpeechSynthesisUtterance();
+msg.text  = " calculating time,, please wait, progressing, switching to others, others opened. enjoy"
+window.speechSynthesis.speak(msg)
+
+document.location = ".html"
+}
+function poo(){
+ msg = new SpeechSynthesisUtterance();
+msg.text  = " switching to, Schedule of the day"
+window.speechSynthesis.speak(msg)
+
+document.location = "Schedule.html"
+}
+
+function p(){
+ msg = new SpeechSynthesisUtterance();
+msg.text  = " switching to voice recognition "
+window.speechSynthesis.speak(msg)
+
+document.location = "lond.html"
+}
+
+
+function op(){
+
+
+var sg = new SpeechSynthesisUtterance();
+sg.text  = "Hi, Hi,  i am called Henry. please speak to me below. try saying. open Facebook, Instagram, Google, YouTube. ask me the time. ask me some common, friendly interaction questions. everything should be well spelled "
+window.speechSynthesis.speak(sg)
+
+
+
+
+
+var input = prompt("speak: ")
+input.toLowerCase;
+
+var msg = new SpeechSynthesisUtterance();
+msg.text  = " "
+window.speechSynthesis.speak(msg)
+
+var tt = "who is mbaezalle ateba jeanne"
+
+var a = "how are you"
+var b = "who are you"
+var c = "who made you"
+var d = "who created you"
+var e = "are you a girl or boy"
+var f = "are you a girl"
+var g = "are you a boy"
+var h = "you are crazy"
+var i = "you are mad"
+var j = "fuck you"
+var k = "you look good"
+var l = "am bored"
+var m = "lets play a game"
+var n  = "what is the name of your master mother"
+var z = "what is the name of your master father"
+
+var p = "how can you insert a sim in iphone 8 plus"
+var q = "what is the time";
+var r = "what is the date";
+var s = "what is the date and time";
+var t = "what time is it";
+var u = "what date is it";
+var w = "what is the time and date";
+var time = Date();
+var titre = "what is titration"
+
+
+
+if(input == titre){
+alert("it is a technique used to determine the concentration of a solution")
+ msg = new SpeechSynthesisUtterance();
+msg.text  = "it is a technique used to determine the concentration of a solution"
+window.speechSynthesis.speak(msg)
+
+document.getElementById("Q").innerHTML = "USER : what is titration."
+document.getElementById("W").innerHTML = "it is a technique used to determine the concentration of a solution"
+}
+if(input == w){
+alert(time)
+}
+
+
+
+
+if(input == tt){
+alert(" it is my master brother, abuno jeanne mothers name or the name of my master brother , mother ")
+
+ msg = new SpeechSynthesisUtterance();
+msg.text  =  " it is my master brother, abuno jeanne mothers name or the name of my master brother , mother"
+window.speechSynthesis.speak(msg)
+
+document.getElementById("Q").innerHTML = "USER : who is mbaezalle ateba jeanne."
+document.getElementById("W").innerHTML = "it is my master brother, abuno jeanne mothers name or the name of my master brother , mother"
+}
+
+
+if(input == r){
+alert(time)
+ msg = new SpeechSynthesisUtterance();
+msg.text  = "the Date is :" + time
+window.speechSynthesis.speak(msg)
+
+document.getElementById("Q").innerHTML = "USER : what is the date ."
+document.getElementById("W").innerHTML = "  HENRY : the Date is :" + time
+}
+
+
+if(input == s){
+alert(time)
+
+ msg = new SpeechSynthesisUtterance();
+msg.text  = "the date and  time is " + time
+window.speechSynthesis.speak(msg)
+
+
+document.getElementById("Q").innerHTML = "USER : what is the date and time."
+document.getElementById("W").innerHTML = "  HENRY : the date and  time is :" + time
+}
+
+if(input == t){
+alert(time)
+
+ msg = new SpeechSynthesisUtterance();
+msg.text  = "the time is " + time
+window.speechSynthesis.speak(msg)
+
+
+document.getElementById("Q").innerHTML = "USER : what time is it ."
+document.getElementById("W").innerHTML = "  HENRY : the time is :" + time
+}
+
+if(input == u){
+alert(time)
+ msg = new SpeechSynthesisUtterance();
+msg.text  =  "the Date is " + time
+window.speechSynthesis.speak(msg)
+
+
+document.getElementById("Q").innerHTML = "USER : what date is it ."
+document.getElementById("W").innerHTML = "  HENRY : the Date is :" + time
+}
+
+if(input == z){
+alert(" his name is henry tina ikomi")
+
+ msg = new SpeechSynthesisUtterance();
+msg.text  =  "his name is henry tina ikomi"
+window.speechSynthesis.speak(msg)
+
+
+document.getElementById("Q").innerHTML = "USER : what is the name of your master father."
+document.getElementById("W").innerHTML = "  HENRY :  his name is henry tina ikomi."
+
+}
+
+if(input == w){
+alert(time)
+
+ msg = new SpeechSynthesisUtterance();
+msg.text  =  " the time and date is " + time
+window.speechSynthesis.speak(msg)
+
+
+document.getElementById("Q").innerHTML = "USER : what is the time and date."
+document.getElementById("W").innerHTML = "  HENRY : the time and date is :" + time
+}
+
+
+if(input == a){
+alert(" i am fine, thanks for asking")
+
+ msg = new SpeechSynthesisUtterance();
+msg.text = " i am fine"
+window.speechSynthesis.speak(msg)
+
+
+document.getElementById("Q").innerHTML = "USER : how are you."
+document.getElementById("W").innerHTML = "  HENRY  :  i am fine."
+
+}
+
+if(input == b){
+alert("i am a robot, designed by my master: ikomi tina henry")
+
+ msg = new SpeechSynthesisUtterance();
+msg.text = " i am a robot, designed by my master: ikomi tina henry"
+window.speechSynthesis.speak(msg)
+
+document.getElementById("Q").innerHTML = "USER : who are you."
+document.getElementById("W").innerHTML = "  HENRY  :  i am a robot, designed by my master: ikomi tina henry."
+
+}
+
+if(input == c){
+alert("my master: ikomi tina henry")
+
+ msg = new SpeechSynthesisUtterance();
+msg.text  = " my master is. ikomi tina henry."
+window.speechSynthesis.speak(msg)
+
+document.getElementById("Q").innerHTML = "USER : who made you."
+document.getElementById("W").innerHTML = "  HENRY  :  my master: ikomi tina henry."
+
+}
+
+
+
+
+if(input == d){
+alert("my master: ikomi tina henry")
+
+
+ msg = new SpeechSynthesisUtterance();
+msg.text  = " my master. ikomi tina henry."
+window.speechSynthesis.speak(msg)
+
+
+document.getElementById("Q").innerHTML = "USER : who made you."
+document.getElementById("W").innerHTML = "  HENRY  : my master: ikomi tina henry."
+
+}
+
+
+
+if(input == e){
+alert("i am not gender specific, but i can take my master gender: boy/ male")
+
+ msg = new SpeechSynthesisUtterance();
+msg.text  = "i am not gender specific, but i can take my master gender: boy/ male."
+window.speechSynthesis.speak(msg)
+
+document.getElementById("Q").innerHTML = "USER : are you a girl or boy."
+document.getElementById("W").innerHTML = "  HENRY  :  i am not gender specific, but i can take my master gender: boy/ male."
+
+}
+
+
+
+
+if(input == f){
+alert(" i am not gender specific")
+
+ msg = new SpeechSynthesisUtterance();
+msg.text  = " i am not gender specific."
+window.speechSynthesis.speak(msg) 
+
+
+document.getElementById("Q").innerHTML = "USER : are you a girl."
+document.getElementById("W").innerHTML = "  HENRY  :  i am not gender specific."
+}
+
+
+
+
+if(input == i){
+alert("if i am made,, then you are crazy and a fool")
+
+ msg = new SpeechSynthesisUtterance();
+msg.text  = " if i am made,, then you are crazy and a fool "
+window.speechSynthesis.speak(msg) 
+
+document.getElementById("Q").innerHTML = "USER : you are mad."
+document.getElementById("W").innerHTML = "  HENRY  :  if i am made,, then you are crazy and a fool "
+}
+
+
+
+if(input == h){
+alert("if i am crazy,, then you are a goat and a stupido")
+
+ msg = new SpeechSynthesisUtterance();
+msg.text  = " if i am crazy,, then you are a goat and a stupido "
+window.speechSynthesis.speak(msg)  
+
+document.getElementById("Q").innerHTML = "USER : you are crazy."
+document.getElementById("W").innerHTML = "  HENRY  :  if i am crazy,, then you are a goat and a stupido "
+}
+
+
+
+
+
+if(input == g){
+alert(" i am not gender specific")
+
+ msg = new SpeechSynthesisUtterance();
+msg.text  = " i am not gender specific."
+window.speechSynthesis.speak(msg)  
+
+document.getElementById("Q").innerHTML = "USER : " + input
+document.getElementById("W").innerHTML = "  HENRY  :  i am not gender specific."
+
+}
+
+
+
+
+if(input == j){
+alert("fuct you harder, you sabbage")
+
+ msg = new SpeechSynthesisUtterance();
+msg.text  = " fuct you harder, you sabbage "
+window.speechSynthesis.speak(msg)  
+
+document.getElementById("Q").innerHTML = "USER : fuck you."
+document.getElementById("W").innerHTML = "  HENRY  :  fuct you harder, you sabbage."
+
+}
+
+
+
+if(input == k){
+alert("thank you, you look good and vam vam too")
+
+ msg = new SpeechSynthesisUtterance();
+msg.text  = " thank you, you look good and vam vam too "
+window.speechSynthesis.speak(msg)  
+
+document.getElementById("Q").innerHTML = "USER : you look good."
+document.getElementById("W").innerHTML = "  HENRY  :  thank you, you look good and vam vam too."
+}
+
+
+
+
+if(input == l){
+alert(" sorry i dont have pemmission to help you, if you want contact my master: ikomi henry tina")
+
+ msg = new SpeechSynthesisUtterance();
+msg.text  = "  sorry i dont have pemmission to help you, if you want contact my master: ikomi henry tina "
+window.speechSynthesis.speak(msg) 
+
+document.getElementById("Q").innerHTML = "USER : am bored."
+document.getElementById("W").innerHTML = "  HENRY  :  sorry i dont have pemmission to help you, if you want contact my master: ikomi henry tina."
+}
+
+
+
+if(input == n){
+alert("her name is martina fortio abrey")
+
+ msg = new SpeechSynthesisUtterance();
+msg.text  = " her name is martina fortio abrey  "
+window.speechSynthesis.speak(msg) 
+
+document.getElementById("Q").innerHTML = "USER : what is the name of your master mother."
+document.getElementById("W").innerHTML = "  HENRY : her name is martina fortio abrey."
+
+}
+
+
+
+if(input == m){
+alert("sorry i can't answer this question without my master: ikomi henry permission")
+
+ msg = new SpeechSynthesisUtterance();
+msg.text  = "  sorry i dont have pemmission to help you, if you want contact my master: ikomi henry tina "
+window.speechSynthesis.speak(msg) 
+
+document.getElementById("Q").innerHTML = "USER : lets play a game."
+document.getElementById("W").innerHTML = "  HENRY  : sorry i can't answer this question without my master: ikomi henry permission."
+}
+
+
+if(input == p){
+alert("sorry i can't answer this question without my master: ikomi henry permission")
+ msg = new SpeechSynthesisUtterance();
+msg.text  = "  sorry i dont have pemmission to help you, if you want contact my master: ikomi henry tina "
+window.speechSynthesis.speak(msg) 
+document.getElementById("Q").innerHTML = "USER : how can you insert a sim in iphone 8 plus."
+document.getElementById("W").innerHTML = "  HENRY : sorry i can't answer this question without my master: ikomi henry permission."
+}
+
+if(input == q){
+alert(time)
+ msg = new SpeechSynthesisUtterance();
+msg.text  = "  the time is " + time 
+window.speechSynthesis.speak(msg) 
+
+document.getElementById("Q").innerHTML = "USER : what is the time ."
+document.getElementById("W").innerHTML = "  HENRY : the time is :" + time
+
+}
+if(input.includes("calculator")){
+
+msg = new SpeechSynthesisUtterance();
+msg.text  = " switching to, calculator"
+window.speechSynthesis.speak(msg)
+
+document.location = "index.html"
+}
+
+ if(input.includes("Instagram")){
+            window.open('https://www.instagram.com/')
+        }
+ if(input.includes("instagram")){
+            window.open('https://www.instagram.com/')
+        }
+
+ if(input.includes("Amazon")){
+            window.open('https://www.amazon.com/')
+        }
+
+ if(input.includes("amazon")){
+            window.open('https://www.amazon.com/')
+        }
+
+
+ if(input.includes("Yahoo")){
+            window.open('https://www.yahoo.com/')
+        }
+
+
+ if(input.includes("yahoo")){
+            window.open('https://www.yahoo.com/')
+        }
+
+ if(input.includes("twitter")){
+            window.open('https://www.twitter.com/')
+        }
+
+
+ if(input.includes("Twitter")){
+            window.open('https://www.twitter.com/')
+        }
+
+
+ if(input.includes("Facebook")){
+            window.open('https://www.facebook.com/')
+        }
+
+
+
+ if(input.includes("WhatsApp")){
+            window.open('https://www.whatsapp.com/')
+        }
+ if(input.includes("time")){
+alert(time)
+ msg = new SpeechSynthesisUtterance();
+msg.text  = "  the time is " + time 
+window.speechSynthesis.speak(msg) 
+
+        }
+ if(input.includes("date")){
+alert(time)
+ msg = new SpeechSynthesisUtterance();
+msg.text  = "  the date is " + time 
+window.speechSynthesis.speak(msg) 
+
+        }
+ if(input.includes("time and date")){
+alert(time)
+ msg = new SpeechSynthesisUtterance();
+msg.text  = "  the time and date is " + time 
+window.speechSynthesis.speak(msg) 
+
+        }
+        
+ if(input.includes("Time")){
+alert(time)
+ msg = new SpeechSynthesisUtterance();
+msg.text  = "  the time is " + time 
+window.speechSynthesis.speak(msg) 
+
+        }
+        
+ if(input.includes("Date")){
+alert(time)
+ msg = new SpeechSynthesisUtterance();
+msg.text  = "  the date is " + time 
+window.speechSynthesis.speak(msg) 
+
+        }
+        
+ if(input.includes("Time and date")){
+alert(time)
+ msg = new SpeechSynthesisUtterance();
+msg.text  = "  the time and date is " + time 
+window.speechSynthesis.speak(msg) 
+
+        }
+        
+ if(input.includes("Date and time")){
+alert(time)
+ msg = new SpeechSynthesisUtterance();
+msg.text  = "  the time is " + time 
+window.speechSynthesis.speak(msg) 
+}
+ if(input.includes("time and" || "Time and" || "date" || "Date and" || "")){
+alert(time)
+ msg = new SpeechSynthesisUtterance();
+msg.text  = "  the " + input + " "+time 
+window.speechSynthesis.speak(msg) 
+
+        }
+        
+        
+        
+        
+        
+        
+ if(input.includes("whatsapp")){
+            window.open('https://www.whatsapp.com/')
+        }
+
+
+ if(input.includes("facebook")){
+            window.open('https://www.facebook.com/')
+        }
+
+
+ if(input.includes("google")){
+            window.open('https://www.google.com/')
+        }
+
+ if(input.includes("Google")){
+            window.open('https://www.google.com/')
+        }
+
+
+
+
+ if(input.includes("playstore")){
+            window.open('https://www.playstore.com/')
+        }
+
+
+ if(input.includes("Playstore")){
+            window.open('https://www.playstore.com/')
+        }
+
+
+ if(input.includes("pornhurb")){
+            window.open('https://www.pornhurb.com/')
+        }
+
+
+}
+</script>
+<br/>
+<br/>
+<br/>
+<br/>
+</body>
+<br/>
+<br/>
+<p style = "color: purple; position: absolute; bottom: 120; right: 700" id ="Q"></p>
+<br/>
+<br/>
+<p style = "color: blue ; position: absolute; bottom: 90; right: 700" id = "W"></p>
+<br/>
+<br/>
+</html>
+
+
